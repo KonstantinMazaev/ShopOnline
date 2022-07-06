@@ -1,0 +1,39 @@
+.form__input {
+  width: 75.7rem;
+  height: 5.4rem;
+  border: none;
+  border-radius: 3rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 130%;
+  padding-left: 4rem;
+  padding-right: 13rem;
+  background-color: var(--color-light-grey);
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .form__input {
+    width: 70rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .form__input {
+    width: 108rem;
+    height: 8.4rem;
+    font-size: 2.8rem;
+    border-radius: 6rem;
+    padding-right: 20rem;
+    padding-left: 6rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .form__input {
+    width: 56rem;
+    height: 6rem;
+    font-size: 1.6rem;
+    padding-right: 12rem;
+    padding-left: 3rem;
+  }
+}

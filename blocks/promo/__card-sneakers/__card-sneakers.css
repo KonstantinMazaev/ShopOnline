@@ -1,0 +1,39 @@
+.promo__card-sneakers {
+  display: flex;
+  justify-content: start;
+  padding: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
+  width: 55rem;
+  height: 22.8rem;
+  border-radius: 2rem;
+  background: url("../../../blocks/promo/img/sneakers.jpg") no-repeat center/cover;
+  grid-area: sneakers;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .promo__card-sneakers {
+    width: 46.4rem;
+    height: 19.4rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/sneakers-1024.jpg");
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-sneakers {
+    width: 60rem;
+    height: 25.2rem;
+    border-radius: 2.4rem;
+    background-image: url("../../../blocks/promo/img/sneakers-768.jpg");
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .promo__card-sneakers {
+    width: 56rem;
+    height: 23.6rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/sneakers-320.jpg");
+  }
+}

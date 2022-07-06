@@ -1,0 +1,51 @@
+.header__nav {
+  display: flex;
+  gap: 1.1rem;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  background-color: var(--color-blue);
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #FFFFFF;
+  border-radius: 1rem;
+  cursor: pointer;
+  grid-area: nav;
+}
+
+.header__nav::before {
+  display: block;
+  content: url("../img/sort.svg");
+  height: 1.2rem;
+  width: 1.8rem;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .header__nav {
+    width: 15.1rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .header__nav {
+    font-size: 3.2rem;
+    gap: 1.1rem;
+    width: 23rem;
+    padding: 2.5rem 3rem 1.5rem 5rem;
+  }
+
+  .header__nav::before {
+    height: unset;
+    width: unset;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .header__nav {
+    width: 15.8rem;
+    font-size: 2.4rem;
+  }
+
+  .header__nav::before {
+    width: 2rem;
+    height: 2rem;
+  }
+}

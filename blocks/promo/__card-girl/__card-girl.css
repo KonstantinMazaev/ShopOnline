@@ -1,0 +1,38 @@
+.promo__card-girl {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 24.5rem;
+  height: 51.6rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  background: url("../../../blocks/promo/img/girl.jpg") no-repeat center/cover;
+  grid-area: girl;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .promo__card-girl {
+    width: 20.6rem;
+    height: 42rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/girl-1024.jpg");
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-girl {
+    width: 36.4rem;
+    height: 56.3rem;
+    border-radius: 2.4rem;
+    background-image: url("../../../blocks/promo/img/girl-768.jpg");
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .promo__card-girl {
+    width: 26rem;
+    height: 42rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/girl-320.jpg");
+  }
+}

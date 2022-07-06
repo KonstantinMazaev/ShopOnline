@@ -1,0 +1,30 @@
+.menu__link--cart {
+  position: relative;
+}
+
+.menu__link--cart::after {
+  position: absolute;
+  display: block;
+  content: "2";
+  top: -0.2rem;
+  right: 1.3rem;
+  color: var(--color-blue);
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding: .1rem .5rem;
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .menu__link--cart::after {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .menu__link--cart::after {
+    font-size: 2.8rem;
+    right: .3rem;
+  }
+}

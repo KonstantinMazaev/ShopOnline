@@ -1,0 +1,6 @@
+@import "__wrap/__wrap.css";
+@import "__title/__title.css";
+
+.banner {
+  margin-bottom: 6rem;
+}

@@ -1,0 +1,31 @@
+.header__logo {
+  grid-template-columns: 1fr 1fr;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.26rem;
+  padding-top: 0.9rem;
+  grid-area: logo;
+}
+
+.header__logo span {
+  color: var(--color-blue);
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .header__logo {
+
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .header__logo {
+    font-size: 5.2rem;
+    line-height: 7rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .header__logo {
+    font-size: 3.6rem;
+  }
+}

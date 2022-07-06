@@ -1,0 +1,45 @@
+.timer__time {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 130%;
+  text-transform: lowercase;
+  letter-spacing: .25rem;
+}
+
+.timer__time span {
+  font-size: 6rem;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .timer__time {
+    font-size: 2rem;
+  }
+
+  .timer__time span {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .timer__time {
+    font-size: 3.2rem;
+  }
+
+  .timer__time span {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .timer__time {
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .timer__time span {
+    font-size: 4rem;
+  }
+}
+

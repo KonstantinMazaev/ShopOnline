@@ -1,0 +1,64 @@
+.promo__card-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  width: 24.5rem;
+  height: 22.8rem;
+  border-radius: 2rem;
+  background: url("../../../blocks/promo/img/time.jpg") no-repeat center/cover;
+  padding: 0 1.4rem 2rem 1.4rem;
+  grid-area: time;
+  font-size: 3rem;
+}
+
+.promo__card-time p {
+  margin-bottom: 1.4rem;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.promo__card-time p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .promo__card-time {
+    width: 21.7rem;
+    height: 20.2rem;
+    border-radius: 1.6rem;
+    font-size: 2.4rem;
+    padding: 1rem;
+    background-image: url("../../../blocks/promo/img/time-1024.jpg");
+  }
+
+  .promo__card-time p:not(:last-child) {
+    padding-right: 2.4rem;
+    margin-bottom: 1.9rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-time {
+    justify-content: space-between;
+    padding-top: 3rem;
+    width: 28rem;
+    height: 26rem;
+    border-radius: 2.4rem;
+    font-size: 3.2rem;
+    background-image: url("../../../blocks/promo/img/time-768.jpg");
+  }
+
+  .promo__card-time p:not(:last-child) {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .promo__card-time {
+    width: 26rem;
+    height: 24rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/time-320.jpg");
+  }
+}

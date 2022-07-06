@@ -1,0 +1,32 @@
+@import "__link/__link.css";
+@import "__link/--cart/--cart.css";
+@import "__img/__img.css";
+@import "__text/__text.css";
+
+.menu {
+  display: flex;
+  gap: 6.5rem;
+  grid-area: menu;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .menu {
+    width: 29.6rem;
+    gap: 3.6rem;
+    place-self: end;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .menu {
+    gap: 5.3rem;
+    place-self: end;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .menu {
+    gap: 4rem;
+    place-self: end;
+  }
+}

@@ -1,0 +1,20 @@
+.promo__card-discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.8rem;
+  height: 8.8rem;
+  background-color: #FFBD13;
+  border-radius: 50%;
+  line-height: 100%;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-discount {
+    width: 10rem;
+    height: 10rem;
+    font-size: 3.2rem;
+  }
+}

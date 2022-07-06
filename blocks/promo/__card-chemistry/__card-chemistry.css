@@ -1,0 +1,46 @@
+.promo__card-chemistry {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2.2rem;
+  width: 24.5rem;
+  height: 22.8rem;
+  border-radius: 2rem;
+  font-size: 3rem;
+  background: url("../../../blocks/promo/img/chemistry.jpg") no-repeat center/cover;
+  grid-area: chemistry;
+}
+
+.promo__card-chemistry p {
+  font-weight: 700;
+  line-height: 130%;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .promo__card-chemistry {
+    width: 20.7rem;
+    height: 19.6rem;
+    border-radius: 1.6rem;
+    font-size: 1.9rem;
+    padding: 1rem 1rem 2rem;
+    background-image: url("../../../blocks/promo/img/chemistry-1024.jpg");
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-chemistry {
+    width: 35.6rem;
+    height: 26.2rem;
+    border-radius: 2.4rem;
+    background-image: url("../../../blocks/promo/img/chemistry-768.jpg");
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .promo__card-chemistry {
+    width: 26rem;
+    height: 19rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/chemistry-320.jpg");
+  }
+}

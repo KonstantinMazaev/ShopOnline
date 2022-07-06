@@ -1,0 +1,45 @@
+.form__button {
+  position: absolute;
+  right: 0;
+  width: 10rem;
+  height: 5.4rem;
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: 3rem;
+}
+
+.form__button::after {
+  position: absolute;
+  content: "";
+  background: url("../img/search.svg") no-repeat center/contain;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .form__button {
+    width: 16.4rem;
+    height: 8.4rem;
+    border-radius: 6rem;
+  }
+
+  .form__button::after {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .form__button {
+    width: 10rem;
+    height: 6rem;
+  }
+
+  .form__button::after {
+    width: 3rem;
+    height: 3rem;
+  }
+}

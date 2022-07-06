@@ -1,0 +1,61 @@
+.promo__card-shoes {
+  display: flex;
+  align-items: end;
+  padding: 2rem;
+  width: 55rem;
+  height: 51.6rem;
+  border-radius: 2rem;
+  background: url("../../../blocks/promo/img/shoes.jpg") no-repeat center/cover;
+  grid-area: shoes;
+}
+
+.promo__card-shoes p {
+  display: block;
+  background-color: #38C0EB;
+  padding: 2.4rem 2.6rem;
+  border-radius: 2rem;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 120%;
+}
+
+.promo__card-shoes span {
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 120%;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .promo__card-shoes {
+    width: 45rem;
+    height: 41.8rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/shoes-1024.jpg");
+  }
+
+  .promo__card-shoes p {
+    font-size: 3rem;
+  }
+
+  .promo__card-shoes span {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-shoes {
+    width: 76rem;
+    height: 55.6rem;
+    border-radius: 2.4rem;
+    background-image: url("../../../blocks/promo/img/shoes-768.jpg");
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .promo__card-shoes {
+    width: 56rem;
+    height: 41.2rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/shoes-320.jpg");
+  }
+}

@@ -1,0 +1,25 @@
+.banner__title {
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 130%;
+  letter-spacing: -.18rem;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .banner__title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .banner__title {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .banner__title {
+    font-size: 4.4rem;
+    padding-left: 0;
+  }
+}

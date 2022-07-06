@@ -1,0 +1,47 @@
+.promo__card-new-year {
+  display: flex;
+  align-items: end;
+  width: 116rem;
+  height: 51.6rem;
+  border-radius: 2rem;
+  padding: 5rem;
+  background: url("../../../blocks/promo/img/new-year.jpg") no-repeat center/cover;
+  grid-area: new-year;
+}
+
+.promo__card-new-year p {
+  padding: 3rem 4rem;
+  background-color: #FFFFFF;
+  color: #F91155;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 120%;
+  border-radius: 2rem;
+}
+
+@media (min-width: 64em) and (max-width: 119.9375em) {
+  .promo__card-new-year {
+    width: 94rem;
+    height: 41.8rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/new-year-1024.jpg");
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .promo__card-new-year {
+    width: 140rem;
+    height: 67.4rem;
+    border-radius: 2.4rem;
+    background-image: url("../../../blocks/promo/img/new-year-768.jpg");
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .promo__card-new-year {
+    width: 56rem;
+    height: 24.6rem;
+    border-radius: 1.6rem;
+    background-image: url("../../../blocks/promo/img/new-year-320.jpg");
+  }
+}
